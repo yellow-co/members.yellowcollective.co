@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": ["members.yellowcollective.co", "member.yellowcollective.co"],
+  "scope": "yellowco",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://yellowco.mn.co" }
+    }
+  ]
+}
